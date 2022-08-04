@@ -203,7 +203,7 @@ screen = pygame.display.set_mode((cell_number * cell_size,cell_number * cell_siz
 clock = pygame.time.Clock()
 apple = pygame.image.load('Graphics/apple.png').convert_alpha()  # Import apple
 game_font = pygame.font.Font('Font/PoetsenOne-Regular.ttf', 25)  # Import font 
-background_music = pygame.mixer.music.load('Sound/sidewinder.wav') , pygame.mixer.music.play()  # Import background music
+background_music = pygame.mixer.music.load('Sound/sidewinder.wav') , pygame.mixer.music.play(-1)  # Import background music
 
 
 
